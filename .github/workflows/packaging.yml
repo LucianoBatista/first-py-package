@@ -126,7 +126,7 @@ jobs:
     needs:
       - format
       - lint
-      - typecheck
+      - type-checking
       - test
       - build_source_dist
       - build_wheels
