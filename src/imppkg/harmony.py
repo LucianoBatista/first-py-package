@@ -6,6 +6,11 @@ from imppkg.harmonic_mean import harmonic_mean
 
 
 def _parse_nums(inputs: list[str]) -> list[float]:
+    """Parse nums
+
+    Parameters:
+        inputs: List of strings
+    """
     try:
         return [float(num) for num in inputs]
     except ValueError:
@@ -13,6 +18,7 @@ def _parse_nums(inputs: list[str]) -> list[float]:
 
 
 def _calculate_result(nums: list[float]) -> float:
+    """Print print print"""
     try:
         return harmonic_mean(nums)
     except ZeroDivisionError:

@@ -1,0 +1,12 @@
+site_name: My Docs
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdocstrings
+
+nav:
+  - "Home": index.md
+  - "My page": mypage.md
